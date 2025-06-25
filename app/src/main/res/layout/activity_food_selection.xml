@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:padding="20dp">
+
+    <!-- Search Bar -->
+
+    <!-- Food List (RecyclerView) -->
+    <SearchView
+        android:id="@+id/searchFood"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_search"
+        android:queryHint="Search food..." />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/foodRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"/>
+
+
+    <!-- Confirm Button -->
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Confirm Selection"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:elevation="4dp"/>
+</RelativeLayout>

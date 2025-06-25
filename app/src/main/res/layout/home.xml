@@ -1,0 +1,256 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:padding="20dp">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today's Nutrition"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/dark_brown"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp" />
+
+    <!-- PieChart -->
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:elevation="6dp"
+        android:padding="10dp"
+        android:background="@drawable/piechart_background" />
+
+    <!-- Progress Container -->
+    <LinearLayout
+        android:id="@+id/progressContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pieChart"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Reusable block for each nutrient -->
+        <!-- CALORIES -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Calories"
+                android:textColor="@color/dark_brown"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/calPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="0%"
+                android:textColor="@color/dark_brown"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/caloriesGoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goal: ..."
+                android:textSize="16sp"
+                android:textColor="@color/dark_brown"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressCalories"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar"/>
+
+        <!-- PROTEIN -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protein"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/dark_brown"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/proPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textSize="16sp"
+                android:textColor="@color/dark_brown"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/proteinGoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goal: ..."
+                android:textSize="16sp"
+                android:textColor="@color/dark_brown"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressProtein"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar"/>
+
+        <!-- FAT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/dark_brown"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/fPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textSize="16sp"
+                android:textColor="@color/dark_brown"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/fatGoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goal: ..."
+                android:textSize="16sp"
+                android:textColor="@color/dark_brown"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressFat"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar"/>
+
+        <!-- SATURATED FAT -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturated Fat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/dark_brown"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/sFatPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textSize="16sp"
+                android:textColor="@color/dark_brown"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/saturatedFatGoal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goal: ..."
+                android:textSize="16sp"
+                android:textColor="@color/dark_brown"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressSaturatedFat"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_bar"/>
+    </LinearLayout>
+
+    <!-- Refresh Button -->
+    <Button
+        android:id="@+id/refreshDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Refresh Data"
+        android:layout_below="@id/progressContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:elevation="4dp"/>
+
+    <!-- Add Food Button -->
+    <Button
+        android:id="@+id/addFoodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Add Food Intake"
+        android:layout_below="@id/refreshDataButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:elevation="4dp"/>
+
+    <Button
+        android:id="@+id/Pfp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Profile"
+        android:layout_below="@id/addFoodButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:elevation="4dp"/>
+</RelativeLayout>

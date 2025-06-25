@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#F9E4C8" />  <!-- Light Beige Background -->
+    <corners android:radius="20dp"/>  <!-- Rounded Corners -->
+    <padding android:left="10dp" android:right="10dp" android:top="10dp" android:bottom="10dp"/>
+    <elevation android:shadowColor="#80000000" android:shadowRadius="12"/>  <!-- Soft Shadow Effect -->
+</shape>

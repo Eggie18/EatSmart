@@ -1,0 +1,97 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/beige">
+
+    <!-- Row for Food Name and Calories -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp">
+
+        <TextView
+            android:id="@+id/foodName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Food Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_brown"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:id="@+id/foodCalories"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Calories"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <!-- Row for Fat, Carbs, and Protein -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp">
+
+        <TextView
+            android:id="@+id/foodFat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Fat: 0g"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/foodCarbs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Carbs: 0g"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/foodProtein"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Protein: 0g"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/grams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Enter Grams"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColorHint="@color/black"
+        android:textColor="@android:color/black"/>
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/addFoodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:padding="8dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/black"
+
+        android:textSize="14sp"
+        android:layout_gravity="end"/>
+</LinearLayout>
