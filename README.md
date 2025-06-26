@@ -32,8 +32,9 @@
 - 🔁 **Effortless Daily Resets** – AlarmManager ensures daily tracking resets happen seamlessly in the background.
 
 ---
-
-
+## Demo 
+[![Watch the video](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://youtube.com/shorts/OwrlYiedbsU?si=cNUFz4Er8tCH_yfK)
+---
 ## Researcher/Developer:
 * Chromewell Ice Tipura
 * Reynaldo Paiso
