@@ -1,5 +1,9 @@
 
 <h1 align="center">🍽️ EatSmart</h1>
+
+![506878242_1502294563955521_5986616426219948538_n](https://github.com/user-attachments/assets/0e906fd9-0131-4d59-b37b-e5ac0a53cdd1)
+
+
 <p align="center"><i>The EatSmart Nutrition App is a mobile application developed to assist users in managing their daily nutritional intake. With a user-friendly interface, the app enables users to register, log in, and track their consumption of calories, protein, fat, and saturated fat. By offering clear visual feedback and daily goals, EatSmart helps promote mindful and healthier eating habits.</i></p>
 
 ---
