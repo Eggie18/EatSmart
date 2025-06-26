@@ -37,7 +37,7 @@
 
 ---
 ## Demo 
-[![Watch the video](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://youtube.com/shorts/OwrlYiedbsU?si=cNUFz4Er8tCH_yfK)
+[![Watch the video](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://youtube.com/shorts/FU8sKBNVAkI?si=JClMjcHX1Nzlt06s)
 ---
 ## Researcher/Developer:
 * Chromewell Ice Tipura
