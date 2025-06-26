@@ -3,16 +3,24 @@
 <p align="center"><i>The EatSmart Nutrition App is a mobile application developed to assist users in managing their daily nutritional intake. With a user-friendly interface, the app enables users to register, log in, and track their consumption of calories, protein, fat, and saturated fat. By offering clear visual feedback and daily goals, EatSmart helps promote mindful and healthier eating habits.</i></p>
 
 ---
-### 1. Secure Login & Registration
+### 1. Secure Login
 
 ![508209447_697416489803208_6253032626849460471_n](https://github.com/user-attachments/assets/5a0587ac-2512-48ba-9c58-c3b945ba3594)
 
 ### 2. Create / Register Account
+![511240783_3230700690413499_4101418608191896766_n (1)](https://github.com/user-attachments/assets/464346db-df29-4eeb-bd3c-6a98fafe22c9)
 
-![508209447_697416489803208_6253032626849460471_n](https://github.com/user-attachments/assets/8a259831-7e14-486c-8479-1aeb07dbc129)
+
 
 ### 3. User DashBoard/Nutrient Goals
 ![510230868_4069006999998435_3541235645773205189_n](https://github.com/user-attachments/assets/b0e5857d-c696-4996-9d48-19fa5a239fb8)
+
+### 4. Search Bar
+![509593195_601345889673826_1203700661154409544_n](https://github.com/user-attachments/assets/d74665ad-e111-4921-ad69-e14d0f45c8a9)
+
+### 5. Weight Profile
+![511249146_1177975114342065_7252852442994721966_n](https://github.com/user-attachments/assets/8bf1b432-69dd-4757-8b9f-d048ce8134d6)
+
 
 ---
 ## ✨ Features
@@ -25,44 +33,12 @@
 
 ---
 
-## 🛠️ Tech Stack
-
-| Layer        | Tools & Frameworks                              |
-|-------------|--------------------------------------------------|
-| **Frontend**| Kotlin, Android SDK, XML                         |
-| **Backend** | Firebase Authentication, Firestore Database      |
-| **UI/UX**    | RecyclerView, Animated SVGs, Material Components |
-| **Data**     | JSON-based nutrition dataset (converted from CSV) |
-
----
-
-## 📦 Dataset Strategy
-
-Nutritional values were parsed and transformed from external CSV sources into structured JSON, then integrated via Firebase for fast, scalable access. This architecture allows real-time updates and user-specific data retrieval.
-
----
-
-## 📸 Preview
-
-_Add screenshots or a demo GIF here to show off EatSmart in action!_
-
----
-
-## 🧩 Future Roadmap
-
-- 📆 Weekly and monthly insights with chart history  
-- 🗂️ Meal logging and barcode scanning support  
-- 💧 Water intake tracker  
-- 🎯 Smart meal suggestions based on dietary targets  
-- 🧾 Export reports to PDF  
-
----
 
 ## Researcher/Developer:
-* ARCHER ANSING
-* CHROMWELL ICE M TIPURA
-* RON LESTER BACSAIN
-* REYNALDO PAISO JR
+* Chromewell Ice Tipura
+* Reynaldo Paiso
+* Archer Ansing
+* Ron Lester Bacsain
   
 ## Adviser: 
 * Jefferson A. Costales
@@ -83,4 +59,5 @@ IT Department
 Mobile Application 
 
 ## Date: 
-* June 22, 2025
+* June 26, 2025
+
