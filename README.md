@@ -47,16 +47,29 @@ _Add screenshots or a demo GIF here to show off EatSmart in action!_
 
 ---
 
-## 🤝 Contributions
+## Researcher/Developer:
+* ARCHER ANSING
+* CHROMWELL ICE M TIPURA
+* RON LESTER BACSAIN
+* REYNALDO PAISO JR
+  
+## Adviser: 
+* Jefferson A. Costales
 
-Pull requests are welcome! If you spot bugs, want to suggest features, or just want to collaborate, feel free to fork and open a PR.
+## School Name:
+Eulogio "Amang" Rodriguez Insitute of Science and Technology
 
----
+Nagtahan, Sampaloc, Manila, Philippines
 
-## 📄 License
+College of Computing Studies
 
-MIT License. See `LICENSE` for more information.
+IT Department
 
----
+## Course And Year & Section 
+* Bachelor of Science in Information Technology 3-A
 
-Built with ❤️ by [@Chromwell](https://github.com/yourusername).  
+## Subject
+Mobile Application 
+
+## Date: 
+* June 22, 2025
